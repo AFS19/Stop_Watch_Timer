@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  font-family: "Courier New", Courier, monospace;
+  overflow-y: hidden;
+}
+
+.title {
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.stopwatch {
+  background-image: url(images/img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 500px;
+  max-width: 100%;
+  text-align: center;
+  margin: 20em auto 0 auto;
+  padding-top: 12vh;
+  border-radius: 8px;
+}
+
+.timer {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.actions button {
+  font-size: x-large;
+  padding: 20px;
+  margin: 30px 5px;
+  border-radius: 5px;
+  letter-spacing: 3.5px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.5 ease-in;
+}
+.actions button:hover {
+  transform: scale(0.9);
+  letter-spacing: 2px;
+}
+
+.actions .stop-timer button {
+  background-color: red;
+}
+
+.actions .play-timer button {
+  background-color: greenyellow;
+}
+
+.actions .reset-timer button {
+  background-color: yellow;
+}
